@@ -141,10 +141,8 @@ const ProjectDetail = () => {
                                 array.map((slide, index) => (
                                     <div key={index} >
                                         <img
+                                            style={{ minHeight: "600px" }}
                                             src={require('../images/' + project.imagePath + "/" + (index + 1) + '.png')}
-
-
-
                                         />
                                     </div >
                                 ))

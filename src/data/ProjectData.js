@@ -30,7 +30,7 @@ export const ProjectData = [
     {
         "name": "Beagleplus",
         "detail": "Beagleplus bir çalışan takip uygulaması. Beagleplus yazılımı ile birlikte çalışanlar günlük gideceği adresleri oluşturabilir, harita üzerinden takip edebilir ve yöneticileri ile mesajlaşabilirler. Çalışanların işlerini oldukça kolaylaştıran bu projede harita üzerinden gidecekleri adreslere en kısa rotayı görebilirler.",
-        "path": "cizgi",
+        "path": "beagleplus",
         "imagePath": "Beagleplus",
         "imageLength": 6,
         "ios": "https://apps.apple.com/tr/app/beagleplus/id1618782964?l=tr",
