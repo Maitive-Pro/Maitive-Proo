@@ -4082,7 +4082,7 @@ i.fa-sm {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url("../images/background/74.jpg");
+  background: url("../images/background/74.webp");
   background-size: cover;
 }
 #showcase .image-with-overlay .overlay,
@@ -4494,7 +4494,7 @@ i.fa-sm {
 #statistics {
   position: relative;
   background-size: cover;
-  background: url("../images/background/header-bg-2.jpeg") fixed;
+  background: url("../images/background/header-bg-2.webp") fixed;
   overflow: hidden;
   color: #ffffff;
 }
@@ -8308,7 +8308,7 @@ i.fa-sm {
 @media screen and (min-width: 767px) {
   #features,
   .elements-features {
-    background: url("../images/background/72.jpg") top center fixed;
+    background: url("../images/background/72.webp") top center fixed;
     background-size: cover;
   }
 }

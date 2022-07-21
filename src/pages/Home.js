@@ -8,7 +8,10 @@ const Home = () => {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
     useEffect(() => {
+
     }, [ProjectData])
+
+
     const sendMessage = async () => {
         try {
             const data = {
@@ -144,77 +147,44 @@ const Home = () => {
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
                             <li>
-                                <a className="waves-effect waves-light home no-bg" data-scroll-nav={1} href="#">
+                                {/* <a className="waves-effect waves-light home no-bg" data-scroll-nav={1} href="#">
                                     <img className="responsive-img logo" src="./images/logo/logo.png" alt="Logo image" /><br />
                                     <img className="responsive-img title" src="./images/title.png" alt="App name image" />
-                                </a>
+                                </a> */}
                             </li>
                             <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={1} href="#">Home</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={1} href="#">Ana Sayfa</a>
                             </li>
                             <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={3} href="#">Features</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={3} href="#">Özellikler</a>
                             </li>
                             <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={6} href="#">Screenshots</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={6} href="#">Sizin İçin Burdayız</a>
                             </li>
                             <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={8} href="#">Prices</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={10} href="#">Projeler</a>
                             </li>
                             <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={9} href="#">Download</a>
-                            </li>
-                            <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={10} href="#">Team</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={11} href="#">Ekibimiz</a>
                             </li>
                             <li>
                                 <ul className="collapsible" data-collapsible="accordion">
-                                    <li>
-                                        <a className="collapsible-header waves-effect waves no-bg" href="#!">
-                                            News
-                                            <i className="fa fa-chevron-down" aria-hidden="true" />
-                                        </a>
-                                        <div className="collapsible-body">
-                                            <a className="waves-effect waves-light" data-scroll-nav={14} href="#">News Section</a>
-                                            <a className="waves-effect waves-light" href="./blog.html">News Page</a>
-                                            <a className="waves-effect waves-light" href="./single-blog.html">Single News Page</a>
-                                        </div>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li>
-                                <ul className="collapsible" data-collapsible="accordion">
-                                    <li>
-                                        <a className="collapsible-header waves-effect waves no-bg" href="#!">
-                                            More
-                                            <i className="fa fa-chevron-down" aria-hidden="true" />
-                                        </a>
-                                        <div className="collapsible-body">
-                                            <a className="waves-effect waves-light" data-scroll-nav={4} href="#">Showcase</a>
-                                            <a className="waves-effect waves-light" data-scroll-nav={5} href="#">Subscribe</a>
-                                            <a className="waves-effect waves-light" data-scroll-nav={7} href="#">Compare Statistics</a>
-                                            <a className="waves-effect waves-light" data-scroll-nav={10} href="#">Our Team</a>
-                                            <a className="waves-effect waves-light" data-scroll-nav={12} href="#">Sık sorulanlar</a>
-
-
-                                            <a className="waves-effect waves-light" data-scroll-nav={13} href="#">Our Videos</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a className="waves-effect waves-light" data-scroll-nav={15} href="#">Contact</a>
+                                <a className="waves-effect waves-light" data-scroll-nav={15} href="#">İletişim</a>
                             </li>
                             <li className="social">
-                                <a href="#"><i className="fa fa-facebook waves-effect waves-circle waves-light blue white-text" /></a>
-                                <a href="#"><i className="fa fa-twitter waves-effect waves-circle waves-light light-blue lighten-2" /></a>
-                                <a href="#"><i className="fa fa-instagram waves-effect waves-circle waves-light amber darken-3" /></a>
-                                <a href="#"><i className="fa fa-youtube waves-effect waves-circle waves-light red" /></a>
+                                <a href="https://www.facebook.com/maitivecom/"><i className="fa fa-facebook waves-effect waves-circle waves-light blue white-text" /></a>
+                                <a href="https://www.twitter.com/maitivecom/"><i className="fa fa-twitter waves-effect waves-circle waves-light light-blue lighten-2" /></a>
+                                {/* <a href="#"><i className="fa fa-instagram waves-effect waves-circle waves-light amber darken-3" /></a>
+                                <a href="#"><i className="fa fa-youtube waves-effect waves-circle waves-light red" /></a> */}
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <header id="main-header" data-scroll-index={1} className="main-header-style-1" style={{ background: 'url(./images/background/71.jpg) fixed' }}>
+                <header id="main-header" data-scroll-index={1} className="main-header-style-1" style={{ background: 'url(./images/background/71.webp) fixed' }}>
                     <div className="overlay gradient-color overlay99" />
                     <canvas className="scene scene--full" id="neomi-scene" />
                     <div className="header-section container">
@@ -276,6 +246,7 @@ const Home = () => {
                                         <p>Müşteriler genellikle Maitive kullanıyor.</p>
                                     </div>
                                 </div>
+
                                 <div className="col s12 m4 hide-on-small-and-down">
                                     <svg width="100%" viewBox="0 0 472 472" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
@@ -425,13 +396,13 @@ const Home = () => {
                             <div className="row push-m1 push-s1 push-l0 s10 m10 l7 images-slider" data-aos="fade-up" data-aos-delay={0}>
                                 <div className="owl-carousel owl-neomi owl-features col s12">
                                     <div>
-                                        <img className="responsive-img" src="../images/macbook/imac1.png" alt="image of the software app" />
+                                        <img className="responsive-img" src="../images/macbook/imac1.webp" alt="image of the software app" />
                                     </div>
                                     <div>
-                                        <img className="responsive-img" src="./images/macbook/imac2.png" alt="image of the software app" />
+                                        <img className="responsive-img" src="./images/macbook/imac2.webp" alt="image of the software app" />
                                     </div>
                                     <div>
-                                        <img className="responsive-img" src="./images/macbook/imac3.png" alt="image of the software app" />
+                                        <img className="responsive-img" src="./images/macbook/imac3.webp" alt="image of the software app" />
                                     </div>
                                 </div>
                             </div>
@@ -488,7 +459,7 @@ const Home = () => {
                                 </svg>
                             </div>
                             <div className="col s12 l6 image center-align">
-                                <img className="responsive-img" src="./images/macbook/mac1.png" alt="" />
+                                <img className="responsive-img" src="./images/macbook/mac1.webp" alt="" />
                                 <span className="gradient-color overlay" />
                             </div>
                         </div>
@@ -525,7 +496,7 @@ const Home = () => {
                                 </svg>
                             </div>
                             <div className="col s12 l6 image opposite center-align">
-                                <img className="responsive-img" src="./images/macbook/mac2.png" alt="" />
+                                <img className="responsive-img" src="./images/macbook/mac2.webp" alt="" />
                                 <span className="gradient-color overlay" />
                             </div>
                         </div>
@@ -560,7 +531,7 @@ const Home = () => {
                                 </svg>
                             </div>
                             <div className="col s12 l6 image center-align">
-                                <img className="responsive-img" src="./images/macbook/mac3.png" alt="" />
+                                <img className="responsive-img" src="./images/macbook/mac3.webp" alt="" />
                                 <span className="gradient-color overlay" />
                             </div>
                         </div>
@@ -641,28 +612,28 @@ const Home = () => {
                             </div>
                             <div className="owl-carousel owl-neomi col s12 l8 owl-screenshots p-t-3">
                                 <div className="single-screenshot">
-                                    <a href="./images/macbook/imac3.png" data-lity>
-                                        <img className="responsive-img" src="./images/macbook/imac3.png" alt="mobile mockup image" />
+                                    <a href="./images/macbook/imac3.webp" data-lity>
+                                        <img className="responsive-img" src="./images/macbook/imac3.webp" alt="mobile mockup image" />
                                     </a>
                                 </div>
                                 <div className="single-screenshot">
-                                    <a href="./images/macbook/imac1.png" data-lity>
-                                        <img className="responsive-img" src="./images/macbook/imac1.png" alt="mobile mockup image" />
+                                    <a href="./images/macbook/imac1.webp" data-lity>
+                                        <img className="responsive-img" src="./images/macbook/imac1.webp" alt="mobile mockup image" />
                                     </a>
                                 </div>
                                 <div className="single-screenshot">
-                                    <a href="./images/macbook/imac1.png" data-lity>
-                                        <img className="responsive-img" src="./images/macbook/imac2.png" alt="mobile mockup image" />
+                                    <a href="./images/macbook/imac1.webp" data-lity>
+                                        <img className="responsive-img" src="./images/macbook/imac2.webp" alt="mobile mockup image" />
                                     </a>
                                 </div>
                                 <div className="single-screenshot">
-                                    <a href="./images/macbook/imac3.png" data-lity>
-                                        <img className="responsive-img" src="./images/macbook/imac3.png" alt="mobile mockup image" />
+                                    <a href="./images/macbook/imac3.webp" data-lity>
+                                        <img className="responsive-img" src="./images/macbook/imac3.webp" alt="mobile mockup image" />
                                     </a>
                                 </div>
                                 <div className="single-screenshot">
-                                    <a href="./images/macbook/imac3.png" data-lity>
-                                        <img className="responsive-img" src="./images/macbook/imac3.png" alt="mobile mockup image" />
+                                    <a href="./images/macbook/imac3.webp" data-lity>
+                                        <img className="responsive-img" src="./images/macbook/imac3.webp" alt="mobile mockup image" />
                                     </a>
                                 </div>
                             </div>
@@ -785,7 +756,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section id="download" data-scroll-index={9} className="main-section download-style-4" style={{ background: 'url("./images/background/111.jpg") center fixed' }}>
+                <section id="download" data-scroll-index={9} className="main-section download-style-4" style={{ background: 'url("./images/background/111.webp") center fixed' }}>
                     <div className="gradient-color overlay" />
                 </section>
                 <section id="team" data-scroll-index={10} className="main-section team-style-4 center-align">
@@ -950,7 +921,7 @@ const Home = () => {
                         <div className="row p-t-3 faq-main">
                             <div className="col s6 m5 push-s3 push-m0 faq-image">
                                 <div className="image">
-                                    <img className="responsive-img" src="./images/macbook/imac1.png" alt="" />
+                                    <img className="responsive-img" src="./images/macbook/imac1.webp" alt="" />
                                 </div>
                             </div>
                             <div className="col s12 m7 collapsible-container">
